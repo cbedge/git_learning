@@ -1,0 +1,18 @@
+{
+    "contents" : "library(dplyr)\n\ngapminder <- read.csv(\"data/gapminder-FiveYearData.csv\")\n\nmean(gapminder$lifeExp[gapminder$continent==\"Asia\"])\n\nmeans_by_continent <- gapminder %>% \n  group_by(continent) %>% \n  summarise(mean_Lifeexp=mean(lifeExp),\n            mean_gdp=mean(gdpPercap))\n\nstr(means_by_continent)\n",
+    "created" : 1448311608953.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3269139315",
+    "id" : "75C58EE5",
+    "lastKnownWriteTime" : 1448312748,
+    "path" : "C:/Users/Chris/Desktop/git_learning/gapminderscript.R",
+    "project_path" : "gapminderscript.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

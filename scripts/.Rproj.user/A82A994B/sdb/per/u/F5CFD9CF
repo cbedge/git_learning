@@ -1,0 +1,18 @@
+{
+    "contents" : "library(dplyr)\n\nread.csv(\"data/gapminder-FiveYearData\")",
+    "created" : 1448311314534.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3249411235",
+    "id" : "F5CFD9CF",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
